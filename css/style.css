@@ -1,1 +1,132 @@
-/* Egen custom CSS här */
+/* //different fonts */
+
+@font-face {
+    font-family: "happy";
+    src: url(../font/happy.ttf);
+}
+
+@font-face {
+    font-family: "curls";
+    src: url(../font/Delicious\ Curls.ttf);
+}
+
+@font-face {
+    font-family: "curls bold";
+    src: url(../font/Delicious\ Curls\ bold.ttf);
+}
+
+@font-face {
+    font-family: "pen";
+    src: url(../font/FPENSTRIAL.ttf);
+}
+
+@font-face {
+    font-family: "handwriting";
+    src: url(../font/handwriting-draft_free-version.ttf);
+}
+
+@font-face {
+    font-family: "hazel";
+    src: url(../font/hazel\ grace.ttf);
+}
+
+@font-face {
+    font-family: "girls";
+    src: url(../font/Pretty\ Girls\ Script\ Demo.ttf);
+}
+
+@font-face {
+    font-family: "strawberry";
+    src: url(../font/Strawberry\ Whipped\ Cream_2.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+/* //homepage */
+
+h1 {
+    font-family: pen;
+}
+
+nav1 {
+    background-color: #A4DCDB;
+}
+
+header1 {
+    background-color: #A4DCDB;
+}
+
+#logga1 {
+    width: 80px;
+}
+
+div1 {
+    background-color: #DF913F;
+    border-radius: 50px;
+}
+
+div1 a {
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+div1 a:hover {
+    color: black;
+}
+
+section1 a:hover {
+    background-color: #b16d25;
+}
+
+footer1 {
+    background-color: #A4DCDB;
+}
+
+footer1 p {
+    font-family: pen;
+}
+
+nav2 {
+    border: black 2px;
+    background-color: #A4DCDB;
+}
+
+
+
+
+
+
+
+
+
+
+/* //paint on a canvas page */
+
+aside2 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* //look at other peoples drawings */
+
+div3 a {
+    color: black;
+    text-decoration: none;
+}
