@@ -95,7 +95,52 @@ footer1 p {
 }
 
 nav2 {
-    border: black 2px;
+    background-color: #A4DCDB;
+    height: 200px;
+    /* width: 300px; */
+}
+
+nav3 {
+    background-color: #A4DCDB;
+}
+
+nav4 {
+    background-color: #A4DCDB;
+}
+
+nav5 {
+    background-color: #A4DCDB;
+}
+
+nav6 {
+    background-color: #A4DCDB;
+}
+
+nav7 {
+    background-color: #A4DCDB;
+}
+
+nav8 {
+    background-color: #A4DCDB;
+}
+
+nav9 {
+    background-color: #A4DCDB;
+}
+
+nav10 {
+    background-color: #A4DCDB;
+}
+
+nav11 {
+    background-color: #A4DCDB;
+}
+
+nav12 {
+    background-color: #A4DCDB;
+}
+
+nav13 {
     background-color: #A4DCDB;
 }
 
@@ -107,12 +152,29 @@ nav2 {
 
 
 
-
 /* //paint on a canvas page */
 
-aside2 a {
+#paint {
+    background-color: #A4DCDB;
+}
+
+div2 {
+    height: 100px;
+}
+
+div2 a {
     color: black;
     text-decoration: none;
+}
+
+#canvas {
+    border: solid black 2px;
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 
