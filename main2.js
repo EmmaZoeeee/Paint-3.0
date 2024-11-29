@@ -1,9 +1,9 @@
 window.addEventListener("load", () => {
   console.log("Hello")
-  const canvas = document.querySelector("#myCanvas");
+  const canvas = document.querySelector("#canvas");
   const ctx = canvas.getContext("2d");
-  canvas.height = 400//window.innerHeight;
-  canvas.width = 400//window.innerWidth;
+  // canvas.height = 600;
+  // canvas.width = 600;
 
   // ctx.strokeStyle ="red";
   // ctx.lineWidth =  5
@@ -36,11 +36,45 @@ window.addEventListener("load", () => {
     ctx.lineWidth = 10;
     ctx.lineCap = "round";
 
-    ctx.lineTo(e.clientX,e.clientY);
+    const rect = canvas.getBoundingClientRect();
+    const canvasX = e.clientX - rect.left;
+    const canvasY = e.clientY - rect.top;
+
+    ctx.lineTo(canvasX, canvasY); // Use the corrected canvas coordinates
     ctx.stroke();
     ctx.beginPath();
-    ctx.moveTo(e.clientX,e.clientY)
+    ctx.moveTo(canvasX, canvasY); // Correct the starting point for the next segment
   }
+
+  // function draw(e) {
+  //   if (!painting) return;
+  
+  //   const rect = canvas.getBoundingClientRect();
+  //   const canvasX = e.clientX - rect.left;
+  //   const canvasY = e.clientY - rect.top;
+  
+  //   ctx.lineWidth = 10;
+  //   ctx.lineCap = "round";
+  
+  //   ctx.lineTo(canvasX, canvasY); // Use the corrected canvas coordinates
+  //   ctx.stroke();
+  //   ctx.beginPath();
+  //   ctx.moveTo(canvasX, canvasY); // Correct the starting point for the next segment
+  // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   //Eventlisteners
   canvas.addEventListener("mousedown",startPosition);
   canvas.addEventListener("mouseup",finishedPosition);
@@ -53,8 +87,8 @@ window.addEventListener("load", () => {
 //   //Resizing
 //   const computedStyle = window.getComputedStyle(canvas)
 //   console.log(computedStyle);
-//   canvas.height = window.innerHeight - 10;
-//   canvas.width = window.innerWidth - 10;
+//   canvas.height = window.innerHeight - 200;
+//   canvas.width = window.innerWidth - 200;
 // })
 
 
