@@ -50,6 +50,11 @@
 
 
 /* //homepage */
+#body1 {
+    overflow-x: none;
+    max-width:100vw !important;
+}
+
 
 h1 {
     font-family: pen;
@@ -83,7 +88,7 @@ div1 a:hover {
 }
 
 section1 a:hover {
-    background-color: #b16d25;
+    /* background-color: white; */
 }
 
 footer1 {
@@ -160,6 +165,13 @@ aside2 a:hover {
     color: #DF913F;
 }
 
+#illustrations {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
 
 
 
@@ -174,20 +186,53 @@ aside2 a:hover {
     box-sizing: border-box;
 }
 
+#div2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    align-items: center;
+    border-radius: 50px;
+    width: 60px;
+    background-color: white;
+}
+
+#div2 a:hover {
+    background-color: #DF913F;
+    border-radius: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#loggapain2 {
+    display: flex;
+    /* justify-content: flex-end; */
+    position: absolute;
+    align-items: center;
+    left: 160vh;
+    top: 3px;
+}
+
+#loggapain {
+    width: 40px;
+}
+
 #div5 {
     /* background-color: #DF913F; */
-    display: grid;
+    display: flex;
     margin: 0pt !important;
-    grid-template-columns: 6;
+    align-items: center;
 }
 
 #div4 {
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     justify-content: center;
-    margin-top: 0pt;
-    margin-left: 8pt;
-    margin-right: 8pt;
+    margin-top: 10pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
     margin-bottom: 10pt;
     border-radius: 50pt;
 }
@@ -202,14 +247,10 @@ aside2 a:hover {
 }
 
 #canvas {
-    border: solid black 2px;
+    /* border: solid black 2px; */
     background-color: white;
     display: flex;
     margin: 8pt;
-}
-
-#loggapain {
-    width: 50px;
 }
 
 
