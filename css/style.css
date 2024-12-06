@@ -97,6 +97,7 @@ footer1 {
 
 footer1 p {
     font-family: pen;
+    font-size: x-large;
 }
 
 nav2 {
@@ -208,11 +209,10 @@ aside2 a:hover {
 
 #loggapain2 {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
     position: absolute;
     align-items: center;
-    left: 160vh;
-    top: 3px;
+    padding: 10px
 }
 
 #loggapain {
@@ -253,6 +253,20 @@ aside2 a:hover {
     margin: 8pt;
 }
 
+/* @media (min-width: 1400px) {
+    #canvas {
+        width:2500px;
+        height:1250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #canvas {
+        width: 2000px;
+        height: 800px;
+    }
+} */
+
 
 
 
@@ -265,4 +279,11 @@ aside2 a:hover {
 div3 a {
     color: black;
     text-decoration: none;
+}
+
+#charts {
+    font-family: pen;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
 }

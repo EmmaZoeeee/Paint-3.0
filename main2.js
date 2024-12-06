@@ -64,17 +64,6 @@ window.addEventListener("load", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   //Eventlisteners
   canvas.addEventListener("mousedown",startPosition);
   canvas.addEventListener("mouseup",finishedPosition);
