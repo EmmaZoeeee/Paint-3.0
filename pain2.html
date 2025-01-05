@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,18 +12,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
- 
+  <title>Paint App</title>
+</head>
+
+<body id="pain2">
+
+
+<div id="div5" class="col-2">
+
+  <div id="div2">
+    <a href="index.html"><p>Home</p></a>
+  </div>
+
+  <nav id="loggapain2">
+    <p>
+      <img id="loggapain" src="img/logga.png" alt="logga">
+    </p>
+  </nav>
+  
+  
+  <div id="div4" class="row panel">
+    
+    
+    <div class="col-1">
+      <p class="col-1">Color:</p>
+      <input type="color" id="color-picker" value="#000000" />
+    </div>
+    
+    
+    <div class="col-1">
+      <p class="col-1">Size:</p>
+      <input type="range" id="brush-size" min="1" max="30" value="5" /> 
+    </div>
+
+    <div class="col-1">
+      <button id="clear-btn">Clear</button>
+    </div>
+
+    <div class="col-1">
+      <button id="eraser-btn">Eraser</button>
+    </div>  
+
+  </div>
+</div>
+
+
+  
+  <canvas id="canvas" width="1400" height="750"></canvas>
+
+  <script src="main2.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Paint App</title>
 </head>
 
 <body id="pain2">
 
   <div id="div5" class="col-2">
-
-    <div id="div2" class="">
-      <a href="index.html"> <p>Home</p></a>
+    <div id="div2">
+      <a href="index.html"><p>Home</p></a>
     </div>
-    
 
     <nav id="loggapain2" class="">
       <p class="">
@@ -27,23 +111,25 @@
   </div>
 
   <div id="div4" class="row panel">
-    <div class="col-1"> <p>Red</p> </div>
-    <div class="col-1"> <p>Orange</p> </div>
-    <div class="col-1"> <p>Yellow</p> </div>
-    <div class="col-1"> <p>Green</p> </div>
-    <div class="col-1"> <p>Blue</p> </div>
-    <div class="col-1"> <p>Purple</p> </div>
-    <div class="col-1"> <p>Pink</p> </div>
-    <div class="col-1"> <p>Black</p> </div>
-    <div class="col-1"> <p>Sudd</p> </div>
-    <div class="col-1"> <p>Penna</p> </div>
-    <div class="col-1"> <p>Trash</p> </div>
+    <div class="col-1"> <p>Color</p> </div>
+    <div class="col-1"> <p>Brush/Eraser</p> </div>
+    <div class="col-1"> <p>Clear</p> </div>
     <div class="col-1"> <p>Save</p> </div>
   </div>
 
-  <canvas id="canvas" width="1400" height="750" class=""></canvas>
+  <canvas id="canvas" width="1400" height="750"></canvas>
+
+  <div class="container">
+    <div class="controls">
+      <input type="color" id="color-picker" value="#000000" />
+      <label for="brush-size">Brush Size:</label>
+      <input type="range" id="brush-size" min="1" max="20" value="5" />
+      <button id="clear-btn">Clear</button>
+      <button id="eraser-btn">Eraser</button>
+    </div>
+  </div>
 
   <script src="main2.js"></script>
-</body>
 
-</html>
+</body>
+</html> -->

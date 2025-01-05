@@ -83,12 +83,8 @@ header1 {
     font-size: x-large;
 }
 
-#div1 a:hover {
-    color: black;
-}
-
-#div1 a:hover {
-    background-color: white;
+#div1:hover {
+    background-color: #b16d25;
 }
 
 footer1 {
@@ -182,10 +178,7 @@ aside2 a:hover {
 
 /* //paint on a canvas page */
 
-#pain2 {
-    background-color: #A4DCDB;
-    box-sizing: border-box;
-}
+
 
 #div2 {
     display: flex;
@@ -207,20 +200,166 @@ aside2 a:hover {
     justify-content: center;
 }
 
+#div2 a {
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+    font-size:medium;
+}
+
 #loggapain2 {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     align-items: center;
-    padding: 10px
+    /* padding: 10px */
+    
 }
 
+/* // Paint on canvas page */
+#pain2 {
+    background-color: #A4DCDB;
+    box-sizing: border-box;
+}
+  
+#div5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+}
+  
+#div4 {
+    background-color: white;
+    margin-top: 7px;
+    margin-left: 100pt;
+    margin-right: 100pt;
+    margin-bottom: 0pt;
+    border-radius: 50pt;
+    width: 100%;  /* Make sure it uses the full width available */
+    text-align: center;
+    padding: 5px;
+}
+
+div#div4.row.panel {
+    margin: none;
+}
+  
+.col-1 {
+    display: inline-block;  /* Place the controls side-by-side */
+    width: 23%;  /* Each control takes up about 1/4 of the width */
+    text-align: center;
+    vertical-align: top;
+    padding: 0px;
+}
+  
+.col-1 p {
+    margin-bottom: 0px;  /* Space between label and control */
+    font-family:serif;
+    font-size:medium;
+}
+
+p.col-1 {
+    margin: 10px;
+}
+  
+/* #canvas {
+    display: block;
+    margin: 10px auto;  /* Center the canvas */
+    /* background-color: white;
+} */
+  
+
+
+#canvas {
+    display: block;
+    margin: 10px auto;  /* Center the canvas */
+    background-color: white;
+    max-width: 100%;  /* Responsive width */
+    height: 750px;  /* Fixed height */
+}
+
+
+/* Styling for controls */
+input[type="color"], 
+input[type="range"], 
+button {
+    padding: 10px;
+    margin-top: 0px;  /* Space between control and label */
+}
+
+input#brush-size {
+    padding: 0px;
+    margin: 10px;
+}
+
+input#color-picker {
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0px;
+    /* border-color: black; */
+    border: none;
+    background-color: rgb(228, 228, 228);
+    /* background-color: #DF913F; */
+    /* background-color: black; */
+    height: 40px;
+    width: 55px;
+}
+
+button {
+    background-color: #DF913F;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: serif;
+    font-size:medium;
+}
+  
+button:hover {
+    background-color: #b16d25;
+}
+  
+div.col-1 {
+    padding: 1px;
+}
+
+button#clear-btn {
+    padding: 10px;
+}
+
+button#eraser-btn {
+    padding: 10px;
+}
+
+#loggapain2 {
+    position: fixed; /* Fixed position to keep it at the top-right */
+    top: 4px; /* Adjust the distance from the top */
+    right: 30px; /* Adjust the distance from the right */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    z-index: 1000; /* Make sure it stays on top of other content */
+}
+  
 #loggapain {
-    width: 40px;
+    width: 40px; /* Set the desired width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+
+
+
+
+
+/*
+#pain2 {
+    background-color: #A4DCDB;
+    box-sizing: border-box;
 }
 
 #div5 {
-    /* background-color: #DF913F; */
     display: flex;
     margin: 0pt !important;
     align-items: center;
@@ -237,21 +376,12 @@ aside2 a:hover {
     border-radius: 50pt;
 }
 
-#div4 div {
-    background-color: #b16d25;
-}
-
-#div2 a {
-    color: black;
-    text-decoration: none;
-}
-
 #canvas {
     /* border: solid black 2px; */
-    background-color: white;
+    /* background-color: white;
     display: flex;
     margin: 8pt;
-}
+} */
 
 /* @media (min-width: 1400px) {
     #canvas {
@@ -266,6 +396,18 @@ aside2 a:hover {
         height: 800px;
     }
 } */
+
+
+
+
+  
+
+  
+  
+  
+
+  
+
 
 
 
