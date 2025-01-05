@@ -102,10 +102,6 @@ header1 {
     background-color: #b16d25;
 }
 
-footer1 {
-    /* background-color: #A4DCDB; */
-}
-
 footer1 p {
     font-family: pen;
     font-size: x-large;
@@ -191,9 +187,7 @@ aside2 a:hover {
 
 
 
-/* //paint on a canvas page */
-
-
+/*paint on a canvas page */
 
 #div2 {
     display: flex;
@@ -231,7 +225,6 @@ aside2 a:hover {
     
 }
 
-/* // Paint on canvas page */
 #pain2 {
     background-color: #A4DCDB;
     box-sizing: border-box;
@@ -251,7 +244,7 @@ aside2 a:hover {
     margin-right: 100pt;
     margin-bottom: 0pt;
     border-radius: 50pt;
-    width: 100%;  /* Make sure it uses the full width available */
+    width: 100%;  
     text-align: center;
     padding: 5px;
 }
@@ -261,15 +254,15 @@ div#div4.row.panel {
 }
   
 .col-1 {
-    display: inline-block;  /* Place the controls side-by-side */
-    width: 23%;  /* Each control takes up about 1/4 of the width */
+    display: inline-block;
+    width: 23%;  
     text-align: center;
     vertical-align: top;
     padding: 0px;
 }
   
 .col-1 p {
-    margin-bottom: 0px;  /* Space between label and control */
+    margin-bottom: 0px; 
     font-family:sans-serif;
     font-size:medium;
 }
@@ -280,7 +273,7 @@ p.col-1 {
   
 /* #canvas {
     display: block;
-    margin: 10px auto;  /* Center the canvas */
+    margin: 10px auto; 
     /* background-color: white;
 } */
   
@@ -288,11 +281,13 @@ p.col-1 {
 
 #canvas {
     display: block;
-    margin: 10px auto;  /* Center the canvas */
+    margin: 10px auto; 
     background-color: white;
-    max-width: 100%;  /* Responsive width */
-    height: 750px;  /* Fixed height */
+    max-width: 100%; 
+    height: 750px;  
 }
+
+
 
 
 /* Styling for controls */
@@ -300,7 +295,7 @@ input[type="color"],
 input[type="range"], 
 button {
     padding: 10px;
-    margin-top: 0px;  /* Space between control and label */
+    margin-top: 0px; 
 }
 
 input#brush-size {
@@ -349,18 +344,18 @@ button#eraser-btn {
 }
 
 #loggapain2 {
-    position: fixed; /* Fixed position to keep it at the top-right */
-    top: 4px; /* Adjust the distance from the top */
-    right: 30px; /* Adjust the distance from the right */
-    display: flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
-    z-index: 1000; /* Make sure it stays on top of other content */
+    position: fixed; 
+    top: 4px; 
+    right: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1000; 
 }
   
 #loggapain {
-    width: 40px; /* Set the desired width for the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 40px; 
+    height: auto;
 }
   
 
@@ -453,3 +448,90 @@ div3 a {
     background-color: white;
     padding: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for screens smaller than 768px (tablets and mobile) */
+@media (max-width: 768px) {
+    #logga1 {
+      width: 60px; 
+    }
+  
+    #div1 {
+      padding: 10px;
+      font-size: medium;
+    }
+  
+    nav1, header1, footer1 {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-4, .col-lg-2 {
+      width: 100%; 
+    }
+  
+    #canvas {
+      width: 100% !important; 
+      height: auto; 
+    }
+  
+    .col-1 {
+      width: 100%; 
+      margin-bottom: 10px;
+    }
+  
+   
+    button {
+      padding: 10px;
+      font-size: large;
+    }
+  }
+  
+  /* Styles for screens smaller than 480px (small phones) */
+  @media (max-width: 480px) {
+    #logga1 {
+      width: 50px;  
+    }
+  
+    #div2 {
+      width: 100%; 
+    }
+  
+    .col-1 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    canvas {
+      height: 500px; 
+    }
+  
+    button {
+      font-size: medium;
+    }
+  }
