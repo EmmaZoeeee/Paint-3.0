@@ -88,18 +88,18 @@ header1 {
 }
 
 #div1 {
-    background-color: #DF913F;
+    background-color: #ffae58;
     border-radius: 50px;
 }
 
 #div1 a {
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-size: x-large;
 }
 
 #div1:hover {
-    background-color: #b16d25;
+    background-color: #e3933e;
 }
 
 footer1 p {
@@ -202,7 +202,7 @@ aside2 a:hover {
 }
 
 #div2 a:hover {
-    background-color: #DF913F;
+    background-color: #ffae58;
     border-radius: 50px;
     width: 60px;
     display: flex;
@@ -306,9 +306,9 @@ input#color-picker {
 }
 
 button {
-    background-color: #DF913F;
+    background-color: #ffae58;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     border-radius: 30px;
     padding: 5px;
@@ -317,7 +317,7 @@ button {
 }
   
 button:hover {
-    background-color: #b16d25;
+    background-color: #e3933e;
 }
   
 div.col-1 {
